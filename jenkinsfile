@@ -1,0 +1,61 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Build') {
+            steps {
+                script {
+                    
+                    bat "dotnet restore"
+
+                    bat "dotnet build --configuration Release"
+                }
+            }
+        }
+
+        stage('Test') {
+            steps {
+                script {
+                  
+                    bat "dotnet test --no-restore --configuration Release"
+                }
+            }
+        }
+
+        stage('Publish') {
+            steps {
+                script {
+                    
+                    bat "dotnet publish --no-restore --configuration Release --output .\\publish"
+                }
+            }
+        }
+        stage('Deploy') {
+            steps {
+                script {
+                   withCredentials([usernamePassword(credentialsId: 'iis-credentials', usernameVariable: 'IIS_USER', passwordVariable: 'IIS_PASSWORD')]) {
+                    powershell '''
+                  
+                    $credential = New-Object System.Management.Automation.PSCredential($env:IIS_USER,(ConvertTo-SecureString $env:IIS_PASSWORD -AsPlainText -Force))
+
+                    Copy-Item -Path 'publish\\*' -Destination 'E:\\Dependancy' -Force
+
+                    '''
+
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            echo 'Build, test, and publish successful!'
+        }
+    }
+}
