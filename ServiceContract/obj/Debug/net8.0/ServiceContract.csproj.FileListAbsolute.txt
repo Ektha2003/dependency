@@ -1,0 +1,11 @@
+C:\Users\hp\source\repos\Ddependancy\ServiceContract\bin\Debug\net8.0\ServiceContract.deps.json
+C:\Users\hp\source\repos\Ddependancy\ServiceContract\bin\Debug\net8.0\ServiceContract.dll
+C:\Users\hp\source\repos\Ddependancy\ServiceContract\bin\Debug\net8.0\ServiceContract.pdb
+C:\Users\hp\source\repos\Ddependancy\ServiceContract\obj\Debug\net8.0\ServiceContract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\Ddependancy\ServiceContract\obj\Debug\net8.0\ServiceContract.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\Ddependancy\ServiceContract\obj\Debug\net8.0\ServiceContract.AssemblyInfo.cs
+C:\Users\hp\source\repos\Ddependancy\ServiceContract\obj\Debug\net8.0\ServiceContract.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Ddependancy\ServiceContract\obj\Debug\net8.0\ServiceContract.dll
+C:\Users\hp\source\repos\Ddependancy\ServiceContract\obj\Debug\net8.0\refint\ServiceContract.dll
+C:\Users\hp\source\repos\Ddependancy\ServiceContract\obj\Debug\net8.0\ServiceContract.pdb
+C:\Users\hp\source\repos\Ddependancy\ServiceContract\obj\Debug\net8.0\ref\ServiceContract.dll

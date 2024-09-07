@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "xnk0wrde/GwJaS/OX5hoXtM0QmVKkpoKDh+Fh3Ri2HQ=",
+  "Source": "Ddependancy",
+  "BasePath": "_content/Ddependancy",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Ddependancy\\wwwroot",
+      "Source": "Ddependancy",
+      "ContentRoot": "C:\\Users\\hp\\source\\repos\\Ddependancy\\Ddependancy\\wwwroot\\",
+      "BasePath": "_content/Ddependancy",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\Ddependancy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB601F55-A5EA-41CB-BCDE-5D99D0AA60EA}|Ddependancy\\Ddependancy.csproj|c:\\users\\hp\\source\\repos\\ddependancy\\ddependancy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB601F55-A5EA-41CB-BCDE-5D99D0AA60EA}|Ddependancy\\Ddependancy.csproj|solutionrelative:ddependancy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB601F55-A5EA-41CB-BCDE-5D99D0AA60EA}|Ddependancy\\Ddependancy.csproj|c:\\users\\hp\\source\\repos\\ddependancy\\ddependancy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB601F55-A5EA-41CB-BCDE-5D99D0AA60EA}|Ddependancy\\Ddependancy.csproj|solutionrelative:ddependancy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB601F55-A5EA-41CB-BCDE-5D99D0AA60EA}|Ddependancy\\Ddependancy.csproj|c:\\users\\hp\\source\\repos\\ddependancy\\ddependancy\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB601F55-A5EA-41CB-BCDE-5D99D0AA60EA}|Ddependancy\\Ddependancy.csproj|solutionrelative:ddependancy\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB601F55-A5EA-41CB-BCDE-5D99D0AA60EA}|Ddependancy\\Ddependancy.csproj|c:\\users\\hp\\source\\repos\\ddependancy\\ddependancy\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB601F55-A5EA-41CB-BCDE-5D99D0AA60EA}|Ddependancy\\Ddependancy.csproj|solutionrelative:ddependancy\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EBBD43D-43D3-4CEB-BE5E-1D976790B3A1}|Services\\Services.csproj|c:\\users\\hp\\source\\repos\\ddependancy\\services\\citiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EBBD43D-43D3-4CEB-BE5E-1D976790B3A1}|Services\\Services.csproj|solutionrelative:services\\citiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE12EC9B-01DA-4AF4-ACB9-7A7CA3ED95BA}|ServiceContract\\ServiceContract.csproj|c:\\users\\hp\\source\\repos\\ddependancy\\servicecontract\\icitiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE12EC9B-01DA-4AF4-ACB9-7A7CA3ED95BA}|ServiceContract\\ServiceContract.csproj|solutionrelative:servicecontract\\icitiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB601F55-A5EA-41CB-BCDE-5D99D0AA60EA}|Ddependancy\\Ddependancy.csproj|c:\\users\\hp\\source\\repos\\ddependancy\\ddependancy\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB601F55-A5EA-41CB-BCDE-5D99D0AA60EA}|Ddependancy\\Ddependancy.csproj|solutionrelative:ddependancy\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB601F55-A5EA-41CB-BCDE-5D99D0AA60EA}|Ddependancy\\Ddependancy.csproj|c:\\users\\hp\\source\\repos\\ddependancy\\ddependancy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB601F55-A5EA-41CB-BCDE-5D99D0AA60EA}|Ddependancy\\Ddependancy.csproj|solutionrelative:ddependancy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB601F55-A5EA-41CB-BCDE-5D99D0AA60EA}|Ddependancy\\Ddependancy.csproj|c:\\users\\hp\\source\\repos\\ddependancy\\ddependancy\\ddependancy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FB601F55-A5EA-41CB-BCDE-5D99D0AA60EA}|Ddependancy\\Ddependancy.csproj|solutionrelative:ddependancy\\ddependancy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Ddependancy\\Ddependancy\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Ddependancy\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Ddependancy\\Ddependancy\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Ddependancy\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T05:01:30.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Ddependancy\\Ddependancy\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Ddependancy\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Ddependancy\\Ddependancy\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Ddependancy\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T05:03:44.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CitiesService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Ddependancy\\Services\\CitiesService.cs",
+              "RelativeDocumentMoniker": "Services\\CitiesService.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Ddependancy\\Services\\CitiesService.cs",
+              "RelativeToolTip": "Services\\CitiesService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T04:56:23.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICitiesService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Ddependancy\\ServiceContract\\ICitiesService.cs",
+              "RelativeDocumentMoniker": "ServiceContract\\ICitiesService.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Ddependancy\\ServiceContract\\ICitiesService.cs",
+              "RelativeToolTip": "ServiceContract\\ICitiesService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T05:48:40.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Ddependancy\\Ddependancy\\Program.cs",
+              "RelativeDocumentMoniker": "Ddependancy\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Ddependancy\\Ddependancy\\Program.cs",
+              "RelativeToolTip": "Ddependancy\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T12:20:35.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Ddependancy\\Ddependancy\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Ddependancy\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Ddependancy\\Ddependancy\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Ddependancy\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T05:11:12.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Ddependancy\\Ddependancy\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Ddependancy\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Ddependancy\\Ddependancy\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Ddependancy\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T05:11:03.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Ddependancy\\Ddependancy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Ddependancy\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Ddependancy\\Ddependancy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Ddependancy\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T05:06:11.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ddependancy.csproj",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Ddependancy\\Ddependancy\\Ddependancy.csproj",
+              "RelativeDocumentMoniker": "Ddependancy\\Ddependancy.csproj",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Ddependancy\\Ddependancy\\Ddependancy.csproj",
+              "RelativeToolTip": "Ddependancy\\Ddependancy.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-23T05:01:04.723Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
