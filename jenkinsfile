@@ -51,7 +51,18 @@ pipeline {
                 }
             }
         }
-       
+        stage('Upload to FTP') {
+            steps {
+                withCredentials([usernamePassword(credentialsId: 'user', usernameVariable: 'FTP_USER', passwordVariable: 'FTP_PASS')]) {
+                    powershell '''
+                          $credential = New-Object System.Management.Automation.PSCredential($env:FTP_USER,(ConvertTo-SecureString $env:FTP_PASS -AsPlainText -Force))
+                        New -PSDrive - Name X -PSProvider FileSystem -Root "\\\\C:\\FTP" -persist -Credential $credential
+                      Copy-Item -Path 'publish\\*' -Destination ' X:\' -Force
+                        Remove-PSDrive -Name X
+                    '''
+                }
+            }
+        }
 
     }
 
