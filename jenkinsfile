@@ -44,7 +44,7 @@ pipeline {
                   
                     $credential = New-Object System.Management.Automation.PSCredential($env:IIS_USER,(ConvertTo-SecureString $env:IIS_PASSWORD -AsPlainText -Force))
 
-                    Copy-Item -Path 'publish\\*' -Destination 'E:\\Dependancy' -Force
+                    Copy-Item -Path 'publish\\*' -Destination ' C:\FTP' -Force
 
                     '''
                     }
