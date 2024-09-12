@@ -46,7 +46,7 @@ pipeline {
                   
                     $credential = New-Object System.Management.Automation.PSCredential($env:FTP_USER,(ConvertTo-SecureString $env:FTP_PASS -AsPlainText -Force))
 
-                    Copy-Item -Path 'publish\\*' -Destination '$env:FTP_SERVER\xyz' -Force
+                    Copy-Item -Path 'publish\\*' -Destination '$env:FTP_SERVER\\xyz' -Force
 
                     '''
                     }
