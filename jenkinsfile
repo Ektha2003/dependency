@@ -2,6 +2,7 @@ pipeline {
     agent any
     environment {
         FTP_SERVER = 'ftp://52.66.250.18/'
+
     }
     stages {
         stage('Checkout') {
@@ -42,15 +43,35 @@ pipeline {
             steps {
                 script {
                    withCredentials([usernamePassword(credentialsId: 'user', usernameVariable: 'FTP_USER', passwordVariable: 'FTP_PASS')]) {
-                       bat """
-                           echo open 52.66.250.18 > ftp_commands.txt
-                           echo user %FTP_USER% %FTP_PASS% >> ftp_commands.txt
-                           echo binary >> ftp_commands.txt
-                           echo cd /xyz >> ftp_commands.txt
-                           echo mput .\\publish\\* >> ftp_commands.txt
-                           echo bye >> ftp_commands.txt
-                           ftp -s:ftp_commands.txt
-                        """
+                    powershell '''
+                         $ftpServer = "${env:FTP_SERVER}"
+                        $ftpUser = "${env:FTP_USER}"
+                        $ftpPass = "${env:FTP_PASS}"
+                        $localFolder = ".\\publish\\"
+                        
+                        $files = Get-ChildItem -Path $localFolder -File
+                        foreach ($file in $files) {
+                            $fileName = $file.Name
+                            $ftpUri = "$ftpServer$fileName"
+                            $ftpRequest = [System.Net.FtpWebRequest]::Create($ftpUri)
+                            $ftpRequest.Method = [System.Net.WebRequestMethods+Ftp]::UploadFile
+                            $ftpRequest.Credentials = New-Object System.Net.NetworkCredential($ftpUser, $ftpPass)
+                            $ftpRequest.UseBinary = $true
+                            $ftpRequest.UsePassive = $true
+                            $ftpRequest.KeepAlive = $false
+
+                          
+                            $fileContent = [System.IO.File]::ReadAllBytes($file.FullName)
+
+                            $requestStream = $ftpRequest.GetRequestStream()
+                            $requestStream.Write($fileContent, 0, $fileContent.Length)
+                            $requestStream.Close()
+
+                            $ftpResponse = $ftpRequest.GetResponse()
+                            Write-Host "Upload complete, status: $($ftpResponse.StatusDescription)"
+                            $ftpResponse.Close()
+                        }
+                    '''
                     }
                 }
             }
