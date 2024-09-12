@@ -41,7 +41,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
-                   withCredentials([usernamePassword(credentialsId: 'ftp-credentials', usernameVariable: 'FTP_USER', passwordVariable: 'FTP_PASS')]) {
+                   withCredentials([usernamePassword(credentialsId: 'user', usernameVariable: 'FTP_USER', passwordVariable: 'FTP_PASS')]) {
                        bat """
                            echo open 52.66.250.18 > ftp_commands.txt
                            echo user %FTP_USER% %FTP_PASS% >> ftp_commands.txt
