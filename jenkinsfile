@@ -41,14 +41,16 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
-                   withCredentials([usernamePassword(credentialsId: 'user', usernameVariable: 'FTP_USER', passwordVariable: 'FTP_PASS')]) {
-                    powershell '''
-                  
-                    $credential = New-Object System.Management.Automation.PSCredential($env:FTP_USER,(ConvertTo-SecureString $env:FTP_PASS -AsPlainText -Force))
-
-                    Copy-Item -Path '.\\publish\\*' -Destination '52.66.250.18\\xyz\\' -Force
-
-                    '''
+                   withCredentials([usernamePassword(credentialsId: 'ftp-credentials', usernameVariable: 'FTP_USER', passwordVariable: 'FTP_PASS')]) {
+                       bat """
+                           echo open 52.66.250.18 > ftp_commands.txt
+                           echo user %FTP_USER% %FTP_PASS% >> ftp_commands.txt
+                           echo binary >> ftp_commands.txt
+                           echo cd /xyz >> ftp_commands.txt
+                           echo mput .\\publish\\* >> ftp_commands.txt
+                           echo bye >> ftp_commands.txt
+                           ftp -s:ftp_commands.txt
+                        """
                     }
                 }
             }
